@@ -1,0 +1,233 @@
+/* change this line only! */
+
+
+html{
+  background-image: url(../photos/rundown.black.jpeg);
+}
+
+
+
+body{
+  margin: 0 auto;
+  width: 100em;
+
+}
+
+main {
+  background-color: #edeef0;
+  color: #222;
+  font-family: sans-serif;
+  font-size: 16px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  overflow: auto;
+  border: 5px solid #222;
+}
+
+nav{
+  border: 5px solid #222;
+  margin: 2em 5;
+  background: #edeef0;
+  text-align: center;
+}
+
+nav > ul {
+  padding-left: 0;
+  margin: 1em 0;
+  list-style: none;
+}
+
+nav > ul > li {
+  display: inline-block;
+  margin-right: 20em;
+  font-weight: bold;
+}
+
+nav > ul > li > a {
+  font-weight: bold ;
+}
+
+nav > form {
+  float: right;
+}
+
+
+a {
+  color: blue;
+  text-decoration: none;
+}
+
+a:hover {
+  color: white;
+}
+
+a:visited{
+  color: red;
+}
+
+
+
+main > ul {
+  margin-top: 0;
+  line-height: 1.5;
+}
+
+img {
+  margin-right: 2em;
+  float: left;
+}
+
+footer{
+  background: #edeef0;
+  color: black;
+  border: 5px solid #222;
+  text-align: center;
+}
+
+footer > ul {
+  padding-left: 0;
+  margin: 1em 0;
+  list-style: none;
+}
+
+footer > ul > li {
+  display: inline-block;
+  margin-right: 20em;
+  font-weight: bold;
+}
+
+body > header > h1 {
+  color: red;
+}
+
+audio {
+    display: block;
+    margin-bottom: 20px;
+  }
+
+
+
+#homepage main{
+  display: grid;
+  background-color: white;
+    grid-template-columns: 1fr 1fr;
+    font-size: 20px;
+
+}
+
+
+
+
+
+#kay main{
+  background-color: #edeef0;
+}
+
+
+
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 3fr 1fr;
+  grid-template-areas:
+  "me"
+  "bio"
+   "sm"
+   "footer";
+}
+
+
+.me {
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-area: me;
+}
+
+.bio{
+  grid-column-start: 2;
+  grid-row-end: 3;
+  grid-area: bio;
+}
+
+.sm{
+  grid-column-start: 1;
+  grid-row-end: 2;
+  grid-area: sm;
+}
+
+
+.footer{
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-area: footer;
+}
+
+
+
+
+
+
+
+#home main {
+    background-color: #edeef0;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-gap: 5px;
+  grid-template-areas:
+  "rich  bio";
+}
+
+
+.rich{
+grid-area: rich;
+}
+
+
+.bio{
+  grid-area: bio;
+
+}
+
+
+
+
+
+#story h2 {
+	margin-top: 0;
+}
+
+#story main {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 20px;
+}
+
+#story section {
+	padding: 40px;
+}
+
+
+
+
+#all main{
+  display: grid;
+  background-color: white;
+    grid-template-columns: 3fr 1fr;
+    font-size: 20px;
+
+
+ margin: 0 auto;
+ width: 60em;
+
+}
+
+
+#nav{
+  font-size: 10px;
+  font-size: 0.75rem;
+}
+
+#all aside {
+ border: 5px;
+}
