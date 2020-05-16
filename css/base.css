@@ -109,12 +109,18 @@ audio {
 
 
 
-.homepage main{
-  display: grid;
-  background-color: white;
-    grid-template-columns: 1fr 1fr;
+  #wrapper main {
+    display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-gap: 20px;
     font-size: 25px;
+    max-width: 960px;
+	margin: 0 auto;
+  }
 
+
+#wrapper > main > section{
+  padding: 10px;
 }
 
 #episodes{
@@ -123,41 +129,12 @@ audio {
 
 
 
-#kay main{
-  background-color: #edeef0;
-}
-
-
-
-
-.grid {
+.kay main{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-template-rows: 3fr 1fr;
-  grid-template-areas:
-  "me"
-  "bio"
-   "sm"
-   "footer";
-}
-
-
-.me {
-  grid-column-start: 1;
-  grid-row-end: 2;
-  grid-area: me;
-}
-
-.bio{
-  grid-column-start: 2;
-  grid-row-end: 3;
-  grid-area: bio;
-}
-
-.sm{
-  grid-column-start: 1;
-  grid-row-end: 2;
-  grid-area: sm;
+  grid-gap: 15px;
+  max-width: 960px;
+	margin: 0 auto;
 }
 
 
@@ -168,29 +145,12 @@ audio {
 }
 
 
-
-
-
-
-
-#home main {
-    background-color: #edeef0;
+.rich main{
   display: grid;
   grid-template-columns: 1fr 1fr;
-  grid-gap: 5px;
-  grid-template-areas:
-  "rich  bio";
-}
-
-
-.rich{
-grid-area: rich;
-}
-
-
-.bio{
-  grid-area: bio;
-
+  grid-gap: 10px;
+  max-width: 960px;
+	margin: 0 auto;
 }
 
 
@@ -205,6 +165,8 @@ grid-area: rich;
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
+  max-width: 960px;
+	margin: 0 auto;
 }
 
 #story section {
