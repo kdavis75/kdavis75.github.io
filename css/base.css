@@ -199,8 +199,18 @@ audio {
 }
 
 
-
-@media (max-width: 320px) {
-  /* mobile styles go here! */
+@media (max-width: 500px){
+  nav{
+    max-width: 480px;
+  margin: 0 auto;
+  }
+  body{
+        max-width: 500px;
+      margin: 0 auto;
+      font-size: 5px;
+      }
+    img{
+      size: 10px;
+    }
 
 }
