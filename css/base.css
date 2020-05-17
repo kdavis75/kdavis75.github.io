@@ -209,8 +209,20 @@ audio {
       margin: 0 auto;
       font-size: 5px;
       }
-    img{
-      size: 10px;
-    }
+  #all main {
+    max-width: 500px;
+  margin: 0 auto;
+  font-size: 5px;
+  }
 
+  #nav{
+    max-width: 500px;
+  margin: 0 auto;
+  font-size: 2px;
+  }
+  img{
+    max-height: 75%;
+    max-width: 75%;
+  }
+  
 }
