@@ -96,7 +96,8 @@ footer > ul {
 
 footer > ul > li {
   display: inline-block;
-  margin-right: 20em;
+  margin-right: 10em;
+  margin-left: 10em;
   font-weight: bold;
 }
 
