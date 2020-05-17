@@ -201,28 +201,28 @@ audio {
 
 @media (max-width: 500px){
   nav{
-    max-width: 320px;
+    max-width: 500px;
   margin: 0 auto;
   }
   body{
-        max-width: 300px;
+        max-width: 500px;
       margin: 0 auto;
       font-size: 5px;
       }
   #all main {
-    max-width: 300px;
+    max-width: 500px;
   margin: 0 auto;
   font-size: 5px;
   }
 
   #nav{
-    max-width: 300px;
+    max-width: 500px;
   margin: 0 auto;
   font-size: 2px;
   }
   img{
-    max-height: 75%;
-    max-width: 75%;
+    max-height: 50%;
+    max-width: 50%;
   }
 
 }
