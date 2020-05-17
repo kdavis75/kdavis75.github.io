@@ -28,20 +28,22 @@ main {
 
 nav{
   border: 5px solid #222;
-  margin: 2em 5;
+  margin: 2em;
   background: #edeef0;
   text-align: center;
 }
 
 nav > ul {
   padding-left: 0;
+  padding-right: 0;
   margin: 1em 0;
   list-style: none;
 }
 
 nav > ul > li {
   display: inline-block;
-  margin-right: 20em;
+  margin-right: 10em;
+  margin-left: 10em;
   font-weight: bold;
 }
 
@@ -204,6 +206,7 @@ audio {
     max-width: 500px;
   margin: 0 auto;
   }
+
   body{
         max-width: 500px;
       margin: 0 auto;
