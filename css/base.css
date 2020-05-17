@@ -201,22 +201,22 @@ audio {
 
 @media (max-width: 500px){
   nav{
-    max-width: 480px;
+    max-width: 320px;
   margin: 0 auto;
   }
   body{
-        max-width: 500px;
+        max-width: 300px;
       margin: 0 auto;
       font-size: 5px;
       }
   #all main {
-    max-width: 500px;
+    max-width: 300px;
   margin: 0 auto;
   font-size: 5px;
   }
 
   #nav{
-    max-width: 500px;
+    max-width: 300px;
   margin: 0 auto;
   font-size: 2px;
   }
@@ -224,5 +224,5 @@ audio {
     max-height: 75%;
     max-width: 75%;
   }
-  
+
 }
