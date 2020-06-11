@@ -2,19 +2,22 @@
 
 
 html{
-  background-image: url(../photos/rundown.black.jpeg);
+ background-color: #edeef0;
 }
 
+header {
+  background-color: #edeef0;
+}
 
 
 body{
   margin: 0 auto;
-  width: 100em;
-
+  padding: 0;
+  width: 89em;
 }
 
 main {
-  background-color: #edeef0;
+  background-color: white;
   color: #222;
   font-family: sans-serif;
   font-family: 'Open Sans', sans-serif;
@@ -23,13 +26,12 @@ main {
   margin-top: 3em;
   margin-bottom: 3em;
   overflow: auto;
-  border: 5px solid #222;
 }
+
 
 nav{
   border: 5px solid #222;
-  margin: 2em;
-  background: #edeef0;
+  background: black;
   text-align: center;
 }
 
@@ -42,8 +44,8 @@ nav > ul {
 
 nav > ul > li {
   display: inline-block;
-  margin-right: 10em;
-  margin-left: 10em;
+  margin-right: 5em;
+  margin-left: 5em;
   font-weight: bold;
 }
 
@@ -82,7 +84,7 @@ img {
 }
 
 footer{
-  background: #edeef0;
+  background: black;
   color: black;
   border: 5px solid #222;
   text-align: center;
@@ -110,7 +112,24 @@ audio {
     margin-bottom: 20px;
   }
 
-
+.rundown{
+  position: relative;
+  height: 450px;
+  overflow: hidden;
+  background: url(rundown.black.jpeg) no-repea center;
+  background-size: cover;
+}
+ .container{
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%,-50%);
+   overflow: hidden;
+   text-align: center;
+   color: black;
+   font-weight: 700;
+   text-transform: uppercase;
+ }
 
   #wrapper main {
     display: grid;
