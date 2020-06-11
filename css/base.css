@@ -59,16 +59,16 @@ nav > form {
 
 
 a {
-  color: blue;
+  color: #ff0000;
   text-decoration: none;
 }
 
 a:hover {
-  color: black;
+  color: #edeef0;
 }
 
 a:visited{
-  color: red;
+  color: #006db8;
 }
 
 
@@ -104,7 +104,7 @@ footer > ul > li {
 }
 
 body > header > h1 {
-  color: red;
+  color: #ff0000;
 }
 
 audio {
@@ -243,9 +243,10 @@ audio {
   margin: 0 auto;
   font-size: 2px;
   }
+
   img{
-    max-height: 50%;
-    max-width: 50%;
+    max-height: 100%;
+    max-width: 100%;
   }
 
 }
