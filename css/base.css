@@ -1,66 +1,23 @@
-/* change this line only! */
-
-
 html{
- background-color: #edeef0;
-}
-
-header {
   background-color: #edeef0;
+  letter-spacing: 2px;
 }
 
-
-body{
-  margin: 0 auto;
+*{
   padding: 0;
-  width: 89em;
-}
-
-main {
-  background-color: white;
-  color: #222;
-  font-family: sans-serif;
-  font-family: 'Open Sans', sans-serif;
-  font-family: 'Roboto', sans-serif;
-  font-size: 16px;
-  margin-top: 3em;
-  margin-bottom: 3em;
-  overflow: auto;
-}
-
-
-nav{
-  border: 5px solid #222;
-  background: black;
-  text-align: center;
-}
-
-nav > ul {
-  padding-left: 0;
-  padding-right: 0;
-  margin: 1em 0;
+  margin: 0;
+  text-decoration: none;
   list-style: none;
+  box-sizing: border-box;
 }
 
-nav > ul > li {
-  display: inline-block;
-  margin-right: 5em;
-  margin-left: 5em;
-  font-weight: bold;
-}
+body {
+  font-family: montserrat;
 
-nav > ul > li > a {
-  font-weight: bold ;
 }
-
-nav > form {
-  float: right;
-}
-
 
 a {
-  color: #ff0000;
-  text-decoration: none;
+  color: #006fbf;
 }
 
 a:hover {
@@ -73,22 +30,119 @@ a:visited{
 
 
 
-main > ul {
-  margin-top: 0;
-  line-height: 1.5;
+ nav{
+   background: black;
+   height: 80px;
+   width: 100%;
+ }
+
+label.logo {
+  color: #006fbf;
+  font-size: 35px;
+  line-height: 80px;
+  padding: 0 100px;
+  font-weight: bold;
 }
 
-img {
-  margin-right: 2em;
-  float: left;
+nav > ul {
+  float: right;
+  margin-right: 20px;
+}
+
+nav > ul > li {
+  display: inline-block;
+  line-height: 80px;
+  margin: 0 5px;
+}
+
+nav > ul > li > a {
+  font-size: 17px;
+  padding: 7px 13px;
+  border-radius: 3px;
+  text-transform: uppercase;
+}
+
+.ban{
+  font-size: 30px;
+  color: white;
+  float: right;
+  line-height: 80px;
+  margin-right: 40px;
+  display: none;
+  cursor: pointer;
+}
+
+#check{
+  display: none;
+}
+
+main {
+  background-color: #edeef0;
+  color: #222;
+  font-family: sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  margin-top: 3em;
+  margin-bottom: 3em;
+  overflow: auto;
+}
+
+
+  #wrapper main {
+    display: grid;
+  	grid-template-columns: 1fr 1fr;
+  	grid-gap: 20px;
+    font-size: 25px;
+    max-width: 1200px;
+    height: 800px;
+    margin: 5px auto;
+    padding: 20px;
+  }
+
+ #wrapper main img {
+   max-width: 100%;
+   max-height: 100%;
+ }
+
+#box{
+  border: 5px solid #222;
+}
+
+#box2{
+  border: 5px solid #222;
+}
+
+
+#box3{
+  grid-column: 1/-1;
+  border: 3px solid #222;
+  text-align: center;
+}
+
+#wrapper > main > section{
+  padding: 10px;
+}
+
+
+
+#episodes{
+  font-size: 35px;
+}
+
+.footer{
+  grid-column-start: 1;
+  grid-row-end: 3;
+  grid-area: footer;
 }
 
 footer{
-  background: black;
-  color: black;
-  border: 5px solid #222;
-  text-align: center;
-}
+  background-color: black;
+  border: 1px solid #222;
+    text-align: center;
+  }
+
+
 
 footer > ul {
   padding-left: 0;
@@ -103,82 +157,27 @@ footer > ul > li {
   font-weight: bold;
 }
 
-body > header > h1 {
-  color: #ff0000;
-}
-
-audio {
-    display: block;
-    margin-bottom: 20px;
-  }
-
-.rundown{
-  position: relative;
-  height: 450px;
-  overflow: hidden;
-  background: url(rundown.black.jpeg) no-repea center;
-  background-size: cover;
-}
- .container{
-   position: absolute;
-   top: 50%;
-   left: 50%;
-   transform: translate(-50%,-50%);
-   overflow: hidden;
-   text-align: center;
-   color: black;
-   font-weight: 700;
-   text-transform: uppercase;
- }
-
-
-  #wrapper main {
-    display: grid;
-  	grid-template-columns: 1fr 1fr;
-  	grid-gap: 20px;
-    font-size: 25px;
-    max-width: 960px;
-	margin: 0 auto;
-  }
-
-
-#wrapper > main > section{
-  padding: 10px;
-}
-
-#episodes{
-  font-size: 35px;
-}
-
-
-
 .kay main{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 15px;
   max-width: 960px;
-	margin: 0 auto;
+  height: 100%;
+	margin: 5px auto;
+  border: 5px solid #222;
+  line-height: 30px;
 }
-
-
-.footer{
-  grid-column-start: 1;
-  grid-row-end: 3;
-  grid-area: footer;
-}
-
 
 .rich main{
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-gap: 10px;
   max-width: 960px;
-	margin: 0 auto;
+  height: 960px;
+	margin: 5px auto;
+  border: 5px solid #222;
+  line-height: 40px;
 }
-
-
-
-
 
 #story h2 {
 	margin-top: 0;
@@ -189,11 +188,13 @@ audio {
 	grid-template-columns: 1fr 1fr;
 	grid-gap: 20px;
   max-width: 960px;
-	margin: 0 auto;
+	margin: 5px auto;
+  border: 5px solid #222;
 }
 
 #story section {
 	padding: 40px;
+  border: 5px solid #222;
 }
 
 
@@ -204,13 +205,28 @@ audio {
   background-color: white;
     grid-template-columns: 3fr 1fr;
     font-size: 20px;
+  border: 5px solid #222;
+  line-height: 30px;
 
-
- margin: 0 auto;
+ margin: 5px auto;
  width: 60em;
 
 }
 
+#all main h2 {
+  text-align: center;
+  line-height: 100px
+}
+
+#all main h3 {
+  text-align: center;
+  line-height: 150px;
+}
+
+#all main h4 {
+  float: left;
+  line-height: 150px;
+}
 
 #nav{
   font-size: 10px;
@@ -218,38 +234,72 @@ audio {
 }
 
 #all aside {
- border: 5px;
+ border: 5px solid #222;
+ max-height: 200px;
 }
 
 
-@media (max-width: 500px){
-  nav{
-    max-width: 500px;
-  margin: 0 auto;
+
+
+@media (max-width: 952px){
+  label.logo{
+    font-size: 27px;
+    padding-left: 25px;
+  }
+  nav ul li a{
+    font-size: 16px;
+  }
+  img{
+    max-height: 100%;
+    max-width: 100%;
   }
 
-  body{
-        max-width: 500px;
-      margin: 0 auto;
-      font-size: 5px;
-      }
-  #all main {
-    max-width: 500px;
-  margin: 0 auto;
-  font-size: 5px;
+}
+@media (max-width: 858px){
+  .ban{
+    display: block;
+    margin-right: 40px;
   }
-
-  #nav{
-    max-width: 500px;
-  margin: 0 auto;
-  font-size: 2px;
+  ul{
+    position: fixed;
+    width: 100%;
+    height: 100vh;
+    background: black;
+    top: 80px;
+    left: -100%;
+    text-align: center;
+    transition: all .5s;
+  }
+  nav ul li{
+    display: block;
+    margin: 50px 0;
+    line-height: 30px;
+  }
+  nav ul li a{
+    font-size: 20px;
+  }
+  a:hover,a.active{
+    background: none;
+    color: #fe0000;
+  }
+  #check:checked ~ ul{
+    left: 0;
   }
 
   img{
     max-height: 100%;
     max-width: 100%;
   }
-.banner-img{
-  max-width: 500px;
+
+  #all main{
+   max-width: 100%
+  }
+
+  #all aside {
+    display: none;
+}
+
+#wrapper main {
+  max-width: 100%;
 }
 }
