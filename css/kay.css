@@ -1,9 +1,8 @@
 @media(max-width: 500px){
   main{
     font-size: 10px;
-  }
-  main{
     margin: 0 auto;
     width: 40em;
   }
+
 }

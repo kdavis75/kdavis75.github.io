@@ -316,6 +316,9 @@ footer > ul > li {
   max-width: 100%;
   font-size: 15px;
 }
+.footer{
+  grid-column: 1/-1;
+}
 
 }
 
@@ -323,4 +326,10 @@ footer > ul > li {
   #all aside{
     display: none;
   }
+
+
+  @media(max-width: 320px){}
+    #all aside{
+      display: none;
+    }
 }
