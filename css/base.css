@@ -317,5 +317,10 @@ footer > ul > li {
   font-size: 15px;
 }
 
+}
 
+@media(max-width: 500px){
+  #all aside{
+    display: none;
+  }
 }
