@@ -254,7 +254,20 @@ footer > ul > li {
     max-width: 100%;
   }
 
+#all aside {
+  display: none;
 }
+
+#all main{
+  max-width: 100%;
+}
+#wrapper main{
+  max-width: 100%;
+  font-size: 15px;
+}
+
+}
+
 @media (max-width: 858px){
   .ban{
     display: block;
@@ -301,5 +314,8 @@ footer > ul > li {
 
 #wrapper main {
   max-width: 100%;
+  font-size: 15px;
 }
+
+
 }
