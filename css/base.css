@@ -1,4 +1,4 @@
-html{
+ html{
   background-color: #edeef0;
   letter-spacing: 2px;
 }
@@ -280,6 +280,15 @@ footer > ul > li {
 .fas.fa-pen{
   font-size: 25px;
   height: 20px;
+}
+
+#mc_embed_signup{
+  background: black; clear:left;
+  font:14px Helvetica,Arial,sans-serif;
+}
+
+#mc_embed_signup  label {
+  color: #006fbf;
 }
 
 
