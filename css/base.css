@@ -252,6 +252,10 @@ footer > ul > li {
 .content .main-content.single .post-content h2{
   text-align: center;
 }
+.content .main-content.single .post-content p{
+  margin-bottom: 32px;
+}
+
 
 .fas.fa-pen{
   font-size: 25px;
