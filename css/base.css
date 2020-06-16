@@ -219,46 +219,40 @@ footer > ul > li {
 }
 
 
-#all main{
-  display: grid;
-  background-color: white;
-    grid-template-columns: 3fr 1fr;
-    font-size: 20px;
-  border: 5px solid #222;
-  line-height: 30px;
-
- margin: 5px auto;
- width: 60em;
-
+.content .main-content.single{
+   background-color: white;
+   padding: 20px 50px;
+   font-size: 1.1em;
+   max-width: 960px;
+   height: 100%;
+  margin: 5px auto;
+   border: 5px solid #222;
+   line-height: 30px;
+   float: none;
 }
 
-#all main h2 {
+.content .main-content.single .post-title{
   text-align: center;
-  line-height: 100px
+  margin-bottom: 40px;
 }
 
-#all main h3 {
+.content .main-content.single .post-content{
+  width: 90%;
+  margin: 50px auto;
+  border-radius: 5px;
+  background: white;
+  line-height: 40px;
+
+}
+
+.content .main-content.single .post-content h2{
   text-align: center;
-  line-height: 150px;
 }
 
-#all main h4 {
-  float: left;
-  line-height: 150px;
+.fas.fa-pen{
+  font-size: 25px;
+  height: 20px;
 }
-
-#nav{
-  font-size: 10px;
-  font-size: 0.75rem;
-}
-
-#all aside {
- border: 5px solid #222;
- max-height: 200px;
-}
-
-
-
 
 @media (max-width: 952px){
   label.logo{
