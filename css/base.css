@@ -8,7 +8,7 @@
   margin: 0;
   text-decoration: none;
   list-style: none;
-  box-sizing: border-box;
+
 }
 
 body {
@@ -89,13 +89,14 @@ main {
 }
 
 
+
   #wrapper main {
     display: grid;
   	grid-template-columns: 1fr 1fr;
   	grid-gap: 20px;
     font-size: 25px;
     max-width: 1200px;
-    height: 800px;
+    height: 100%;
     margin: 5px auto;
     padding: 20px;
   }
@@ -321,13 +322,8 @@ footer > ul > li {
    font-style: 15px;
  }
 
-footer{
-  text-align: center;
-}
 
-footer ul li {
-  display: inline-block;
-}
+
 
 }
 
