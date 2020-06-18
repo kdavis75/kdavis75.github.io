@@ -125,6 +125,10 @@ main {
   border: 5px solid #222;
 }
 
+#box5{
+    border: 5px solid #222;
+}
+
 
 .follow{
   line-height: 80px;
@@ -149,6 +153,10 @@ main {
 
 #episodes{
   font-size: 35px;
+}
+#episodes iframe{
+  width: 100%;
+  height: 252px;
 }
 
 .footer{
@@ -229,7 +237,7 @@ footer > ul > li {
   line-height: 40px;
 }
 
-.content .main-content .post-preview h1{
+.content .main-content .post-preview h2{
   text-decoration: underline;
 }
 
@@ -322,6 +330,11 @@ footer > ul > li {
    font-style: 15px;
  }
 
+ .content.clearfix .main-content.single  {
+   max-width: 80%;
+   max-height: 100%;
+ }
+
 
 
 
@@ -335,7 +348,7 @@ footer > ul > li {
   nav ul{
     position: fixed;
     width: 100%;
-    height: 100vh;
+    height: 100%;
     background: black;
     top: 80px;
     left: -100%;
@@ -398,12 +411,66 @@ footer ul li {
   margin-left: 2em;
 }
 
+.content.clearfix  .main-content.single {
+  max-width: 80%;
+  max-height: 100%;
+}
+
+
 }
 
 @media(max-width: 500px){
+  .content.clearfix  .main-content.single {
+    max-width: 70%;
+    max-height: 100%;
+  }
+
+}
 
 
 
-  @media(max-width: 320px){}
 
+  @media(max-width: 320px){
+    .content.clearfix .main-content.single  {
+      max-width: 60%;
+      max-height: 100%;
+    }
+
+}
+
+@media(max-width: 1065px){
+  .content.clearfix .main-content.single  {
+    max-width: 80%;
+    max-height: 100%;
+  }
+}
+
+@media(max-width: 547px){
+  .content.clearfix .main-content.single  {
+    max-width: 70%;
+    max-height: 100%;
+  }
+}
+
+
+
+@media(max-width: 365px){
+  .content.clearfix .main-content.single  {
+    max-width: 60%;
+    max-height: 100%;
+  }
+}
+
+
+@media(max-width: 274px){
+  .content.clearfix .main-content.single  {
+    max-width: 50%;
+    max-height: 100%;
+  }
+}
+
+@media(max-width: 384px){
+  .post{
+    max-width: 80%;
+  }
 }
