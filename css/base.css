@@ -141,6 +141,12 @@ main {
   font-size: 40px;
 }
 
+#box7{
+  grid-column: 1/-1;
+  border: 3px solid #222;
+  text-align: center;
+}
+
 .follow{
   line-height: 80px;
 }
@@ -450,6 +456,7 @@ footer ul li {
 #box5{
   grid-column: 1/-1;
 }
+
 
 
 .home-footer ul li {
