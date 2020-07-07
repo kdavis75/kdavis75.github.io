@@ -461,6 +461,7 @@ footer ul li {
 
 .home-footer ul li {
   float: right;
+  font-size: 20px;
 }
 }
 
@@ -508,7 +509,7 @@ footer ul li {
   }
 
   .home-footer ul li {
-    font-size: 30px;
+    font-size: 20px;
   }
 }
 
