@@ -488,6 +488,10 @@ footer ul li {
   .blogs{
     max-width: 85%;
   }
+  .home-footer ul li {
+    font-size: 15px;
+  }
+
 }
 
 @media(max-width: 1065px){
@@ -501,6 +505,10 @@ footer ul li {
   .content.clearfix .main-content.single  {
     max-width: 70%;
     max-height: 100%;
+  }
+
+  .home-footer ul li {
+    font-size: 30px;
   }
 }
 
