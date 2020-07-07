@@ -529,4 +529,33 @@ footer ul li {
   .post{
     max-width: 80%;
   }
+
+  @media(max-width: 350px){
+    .content.clearfix .main-content.single  {
+      max-width: 60%;
+      max-height: 100%;
+    }
+
+  .logo.single{
+    display: none;
+  }
+
+  .kay main{
+    max-width: 90%;
+  }
+
+  .rich main{
+    max-width: 95%;
+  }
+
+ .blogs-page main {
+  max-width: 90%;
+ }
+
+ @media(max-width: 300px){
+   .preview-text  {
+     font-size: 3px;
+   }
+
+
 }
