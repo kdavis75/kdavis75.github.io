@@ -461,7 +461,7 @@ footer ul li {
 
 .home-footer ul li {
   float: right;
-  font-size: 20px;
+  font-size: 15px;
 }
 }
 
@@ -489,9 +489,7 @@ footer ul li {
   .blogs{
     max-width: 85%;
   }
-  .home-footer ul li {
-    font-size: 15px;
-  }
+
 
 }
 
@@ -508,9 +506,7 @@ footer ul li {
     max-height: 100%;
   }
 
-  .home-footer ul li {
-    font-size: 20px;
-  }
+
 }
 
 
