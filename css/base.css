@@ -302,6 +302,13 @@ footer > ul > li {
   margin-bottom: 32px;
 }
 
+.content .main-content.single .post-content img {
+  max-width: 100%;
+}
+
+ i{
+   font-size: 10px;
+ }
 
 .fas.fa-pen{
   font-size: 25px;
