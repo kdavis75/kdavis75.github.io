@@ -225,6 +225,10 @@ footer > ul > li {
   line-height: 40px;
 }
 
+.rich .photo2 img{
+  max-width: 100%;
+}
+
 .clearfix::after{
   content: '';
   display: block;
@@ -323,6 +327,7 @@ footer > ul > li {
 #mc_embed_signup  label {
   color: #006fbf;
 }
+
 
 
 
