@@ -58,7 +58,7 @@ body{
 .aside{
   grid-column-start: 4;
   width: 100%;
-  grid-row-start: 1;
+  grid-row-start: 2;
   grid-row-end: 4;
   text-align: center;
   padding: 0;
@@ -96,7 +96,7 @@ aside ul {
 }
 .work1{
   grid-column-start: 1;
-  grid-column-end: 4;
+  grid-column-end: 5;
   border: 3px solid #222;
   font-size: 20px;
   text-align: center;
@@ -453,16 +453,11 @@ aside{
   .rich main{
     margin: 0px;
   }
-}
 
-@media(max-width: 1064px){
-
-  .kay main{
+  .grid_main{
+    max-width: 99%;
     margin: 0;
-  }
-
-  .rich main{
-    margin: 0px;
+    padding: 0;
   }
 }
 
