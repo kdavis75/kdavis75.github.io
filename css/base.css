@@ -563,7 +563,6 @@ aside{
   .grid_main{
     padding: 0;
     grid-template-columns: 1fr;
-    padding: 40px;
   }
 
 
@@ -616,7 +615,7 @@ aside{
   .grid_main{
     padding: 0;
     grid-template-columns: 1fr;
-    padding: 10px;
+
     width: 90%;
   }
 
@@ -693,9 +692,8 @@ aside{
 
    .grid_main{
      grid-template-columns: 1fr;
-     padding: 20px;
-     margin-left: 2em;
-     width: 80%;
+     width: 70%;
+     margin: 0;
    }
 
   .blogs-page {
@@ -722,7 +720,8 @@ aside{
 .grid_main{
   grid-template-columns: 1fr;
   padding: 0px;
-  width: 80%;
+  width: 60%;
+  margin: 0;
 }
 
 
@@ -745,6 +744,28 @@ text-align: center;
 text-align: center;
 }
 
+}
 
+@media(max-width: 376px){
+  .grid_main{
+    max-width: 0;
+    
+  }
 
+  .work1{
+    max-width: 87.5%;
+
+  }
+
+   .pics{
+     max-width: 87.5%;
+   }
+
+   .work{
+     max-width: 87.5%;
+   }
+
+   footer{
+     max-width: 87.5%;
+   }
 }
