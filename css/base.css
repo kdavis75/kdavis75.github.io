@@ -15,11 +15,11 @@ body {
 }
 
 a {
-  color: black;
+  color: red;
 }
 
 a:hover {
-  color: #fe0000;
+  color: blue;
 }
 
 a:visited{
@@ -29,7 +29,8 @@ a:visited{
 
 header {
   text-align: center;
-  background-color: white;
+  background-color: black;
+  color: white;
 }
 
 header ul {
@@ -37,7 +38,7 @@ header ul {
   justify-content: space-around;
   padding: 15px;
   list-style: none;
-  border: 1px solid black;
+  border: 1px solid white;
 }
 
 body{
@@ -89,18 +90,22 @@ aside ul {
   text-align: center;
 }
 
+.work p{
+  font-size: 30px;
+  text-align: center;
+}
 .work1{
   grid-column-start: 1;
   grid-column-end: 4;
   border: 3px solid #222;
   font-size: 20px;
   text-align: center;
+  font-size: 30px;
 }
 
 footer{
-  grid-column-start: 1;
-  grid-column-end: 4;
-  border: 3px solid #222;
+  border: 3px solid white;
+  background-color: black;
 }
 
 footer ul {
@@ -112,7 +117,7 @@ footer ul {
 }
 
 footer ul li a{
-  color: black;
+  color: red;
   font-size: 20px;
 }
 
@@ -749,7 +754,7 @@ text-align: center;
 @media(max-width: 376px){
   .grid_main{
     max-width: 0;
-    
+
   }
 
   .work1{
