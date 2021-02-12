@@ -54,7 +54,10 @@ body{
   padding: 70px;
   margin: auto;
 }
-
+.grid_main h1{
+  text-align: center;
+  justify-content: center;
+}
 .aside{
   grid-column-start: 4;
   width: 100%;
