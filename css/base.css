@@ -697,7 +697,7 @@ aside{
 
    .grid_main{
      grid-template-columns: 1fr;
-     width: 70%;
+     width: 100%;
      margin: 0;
    }
 
@@ -725,7 +725,7 @@ aside{
 .grid_main{
   grid-template-columns: 1fr;
   padding: 0px;
-  width: 60%;
+  width: 100%;
   margin: 0;
 }
 
@@ -753,24 +753,13 @@ text-align: center;
 
 @media(max-width: 376px){
   .grid_main{
-    max-width: 0;
+    max-width: 100%;
 
   }
 
-  .work1{
-    max-width: 87.5%;
 
-  }
-
-   .pics{
-     max-width: 87.5%;
-   }
-
-   .work{
-     max-width: 87.5%;
-   }
 
    footer{
-     max-width: 87.5%;
+     max-width: 100%;
    }
 }
