@@ -303,35 +303,22 @@ img.hover-shadow {
  max-width: 100%;
 }
 
-.container {
+. /* Container holding the image and the text */
+.container1 {
   position: relative;
-  width: 100%;
-  max-width: 100%;
 }
 
-/* Make the image to responsive */
-
-
-/* The overlay effect - lays on top of the container and over the image */
-.overlay {
-  position: absolute;
-  bottom: 0;
-  background: rgb(0, 0, 0);
-  background: rgba(0, 0, 0, 0.5); /* Black see-through */
-  color: #f1f1f1;
-  width: 100%;
-  transition: .5s ease;
-  opacity:0;
+/* Bottom right text */
+.text-block {
   color: white;
-  font-size: 20px;
-  padding: 20px;
-  text-align: center;
+
 }
 
-/* When you mouse over the container, fade in the overlay title */
-.container:hover .overlay {
-  opacity: 1;
+.container1 a {
+  color: black;
 }
+
+
 
 .videos{
   display: grid;
@@ -453,7 +440,17 @@ and (-webkit-min-device-pixel-ratio: 2) {
   }
 
   .overlay{
-    display: none;
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5); /* Black see-through */
+    color: #f1f1f1;
+    width: 10%;
+    transition: .5s ease;
+    opacity:0;
+    color: white;
+    font-size: 5px;
+    text-align: center;
   }
 
 
